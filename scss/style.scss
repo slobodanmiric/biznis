@@ -228,3 +228,40 @@ header {
         @include btn;
     }
 }
+/*****************
+about
+*****************/
+.about {
+    @include flex(space-between, center, row);
+    article:first-child {
+        height: 500px;
+        flex: 1;
+        @media(max-width: 767px) {
+            flex: 0 0 100%;
+        }
+        img {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+            display: block;
+        }
+    }
+    article:last-child {
+        height: 500px;
+        flex: 1;
+        background: $black;
+        color: $white;
+        @include flex(center, flex-start, column);
+        padding: 0 40px;
+        @media(max-width: 767px) {
+            @include flex(center, center, column);
+            padding: 20px;
+        }
+        h2 {
+            font-size: 2.5rem;
+            @media(max-width: 767px) {
+                font-size: 1.7rem;
+            }
+        }
+    }
+}
