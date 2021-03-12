@@ -31,6 +31,18 @@
         </article>
     </section>
 
+    <!-- headings -->
+    <section class="container headings">
+        <article>
+            <h2>02</h2>
+        </article>
+        <article>
+            <h3>Services</h3>
+            <h2><span>HOW TO PROVIDE</span> TOOLS THAT HELP ANYONE</h2>
+            <h4>Get your Business in 4 easy steps</h4>
+        </article>
+    </section>
+
 <?php include "partials/footer.php" ?>
 
     
